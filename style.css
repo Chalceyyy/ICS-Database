@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;@500;@600;700&display=swap");
+
+
+/*Dashboard*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.07);
+    border: 1px solid #e1e5eb;
+    box-sizing: border-box;
+
+}
+.main-container h2 {
+   color: #333333;
+   font-size: 24px;
+   margin-top: 0;
+   margin-bottom: 20px;
+   font-family: sans-serif;
+
+}
+
+
+header {
+    background-color: #003566;
+    width: 100%;
+    padding-left: 5%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+header h1 {
+    color: #ffffff; 
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+h2 {
+    margin-bottom: 20px;    
+}
+
+a {
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background: #003566;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15x;
+}
+
+th, td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+.btn-delete {
+    background: #e03131;
+    margin-left: 5px;
+}
+
+/*Request List*/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f2f2;
+}
+
+.form-wrapper   {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.form-wrapper h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 12px 0;
+    padding: 12px;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+.btn-box    {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.btn-box button {
+    padding: 8px 50px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #003566;
+}
+
+.btn-box a {
+    background: transparent;
+    color: #003566;
+    border: 2px solid #003566;
+    padding: 6px 50px;
+}
+
+/*History*/
+
+.action-buttons-container {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.brn-add, .btn-history {
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background 0.2s ease-in-out;
+}
+
+.btn-history:hover {
+    background-color: #41464b;
+}
+
+.btn-add {
+    background-color: #004080;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #002b54;
+}
+
+.btn-history:hover {
+    background-color: #495057
+}
+
+.btn-edit, .btn-delete {
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 4px;
+}
